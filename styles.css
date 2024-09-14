@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/fotos-gratis/paisagem-florestal_71767-127.jpg?w=996&t=st=1726256078~exp=1726256678~hmac=e9ce7289df19f9a7eb6384d5debd8661341ee3c1d200a3b197250b3ef38e3465);
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 30px;
+    width: 500px;
+    height: 450px;
+}
+
+.barra-de-pesquisa{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    width: calc( 100% - 100px);
+}
+
+.barra-de-pesquisa::placeholder{
+    color: black;
+}
+
+button{
+border: none;
+outline: none;
+cursor: pointer;
+padding: 10px;
+border-radius: 50px;
+float: right;
+}
+
+
+
+.lupa{
+width: 19px;
+}
+
+.cidade{
+    color: black;
+    font-size: 38px;
+    padding-top: 25px;
+}
+
+.temp{
+    color: black;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.img-previsao{
+    width:60px ;
+    padding-top: 30px;
+}
+
+.texto-previsao{
+    color: black;
+    padding-top: 35px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
